@@ -1,0 +1,14 @@
+[
+    {
+        "CNIC": "100200300",
+        "customerId": "samer123",
+        "departure": "o",
+        "departureTime": 1713976417,
+        "destination": "o",
+        "destinationTime": 1713987217,
+        "flightNumber": "o",
+        "passengerAge": "2",
+        "passengerName": "p1",
+        "seatNumber": "A1"
+    }
+]

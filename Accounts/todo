@@ -1,0 +1,9 @@
+Make loan system
+
+Income Statement(Shows profit/ loss), Cash Reports(Reports of all payments), Balance Sheet(After calculating Proft/loss with loans)
+
+Gonna make EmployeeAccount, PassengerAccount, CourierServiceAccount and PlaneCostAccount as seperate classes that will inherit from class Account
+Unique Attributes:- EmployeeAccount -> Salary, PassengerAccount -> Flight Cost, CourierServiceAccount -> ServiceCost and PlaneCostAccount -> PlaneMaintainanceCost
+Taking loans
+Giving discounts to loyal customers
+

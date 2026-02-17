@@ -1,0 +1,12 @@
+{
+    "CargoEmployee": [
+        {
+            "accountNo": 222,
+            "age": 12,
+            "available": false,
+            "id": 1111,
+            "name": "numan",
+            "salary": 111
+        }
+    ]
+}

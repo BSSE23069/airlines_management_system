@@ -1,0 +1,40 @@
+{
+    "receiver": [
+        {
+            "ReceiveAge": 3,
+            "ReceiveCNIC": 23,
+            "ReceiverName": "ee",
+            "city": "qqq",
+            "contractNo": 222,
+            "country": "e",
+            "district": "ww",
+            "houseNo": "ss",
+            "receiving status": false,
+            "street": "www"
+        }
+    ],
+    "sender": [
+        {
+            "city": "ee",
+            "contactNo": 33,
+            "country": "w",
+            "district": "ww",
+            "houseNo": "e",
+            "id": [
+                "w0",
+                "w1"
+            ],
+            "no of items": 2,
+            "price": 1581587,
+            "senderAge": 2,
+            "senderName": "w",
+            "senderNic": 33,
+            "sending status": false,
+            "street": "e",
+            "weight": [
+                23.299999237060547,
+                23.299999237060547
+            ]
+        }
+    ]
+}

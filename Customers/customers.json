@@ -1,0 +1,16 @@
+{
+    "Customers": [
+        {
+            "firstName": "Samer",
+            "id": "samer123",
+            "lastName": "Nisar",
+            "pass": "radoz123"
+        },
+        {
+            "firstName": "AHmad",
+            "id": "bsse23008",
+            "lastName": "Khan",
+            "pass": "ahmad12345"
+        }
+    ]
+}

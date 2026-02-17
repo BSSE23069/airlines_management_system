@@ -1,0 +1,60 @@
+Stauts: Deduction, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Addition, Previous Balance: 1000.21, New Balance: 1100.21
+--------------------
+Stauts: Deduction, From Account: 123ABC to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 0.21
+--------------------
+Stauts: Deduction, From Account: 123ABC to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 0.21
+--------------------
+Stauts: Addition, From Account: 123ABC to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 2000.21
+--------------------
+Stauts: Deduction, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Addition, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 1100.21
+--------------------
+Stauts: Deduction, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 0.21
+--------------------
+Stauts: Addition, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 0.21, New Balance: 1000.21
+--------------------
+Stauts: Addition, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 2000.21
+--------------------
+Stauts: Addition, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 2000.21, New Balance: 3000.21
+--------------------
+Stauts: Deduction, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 3000.21, New Balance: 0.21
+--------------------
+Stauts: Addition, From Account: GoodAccountNumber to Airlines Account: 123ABC, Previous Balance: 0.21, New Balance: 1000.21
+--------------------
+Stauts: Addition, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 1123.21
+--------------------
+Stauts: Addition, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1123.21, New Balance: 1246.21
+--------------------
+Stauts: Addition, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1246.21, New Balance: 1369.21
+--------------------
+Stauts: Deduction, From Account: 123 to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 999.21
+--------------------
+Stauts: Deduction, From Account: 123Salary to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: -11221.8
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 100 to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 878.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 900.21
+--------------------
+Stauts: Deduction, From Account: 123SalaryTest to Airlines Account: 123ABC, Previous Balance: 1000.21, New Balance: 988.21
+--------------------

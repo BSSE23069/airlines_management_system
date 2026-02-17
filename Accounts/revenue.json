@@ -1,0 +1,40 @@
+{
+    "transactions": [
+        {
+            "amount": 200000.0,
+            "transactionType": true
+        },
+        {
+            "amount": 80000.0,
+            "transactionType": true
+        },
+        {
+            "amount": 120000.0,
+            "transactionType": true
+        },
+        {
+            "amount": 80000.0,
+            "transactionType": true
+        },
+        {
+            "amount": 1500000.0,
+            "transactionType": false
+        },
+        {
+            "amount": 150000.0,
+            "transactionType": true
+        },
+        {
+            "amount": 2000000.0,
+            "transactionType": false
+        },
+        {
+            "amount": 1500000.0,
+            "transactionType": false
+        },
+        {
+            "amount": 160000.0,
+            "transactionType": false
+        }
+    ]
+}
