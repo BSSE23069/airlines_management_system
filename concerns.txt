@@ -1,0 +1,199 @@
+/*
+#include <iostream>
+#include <ctime>
+
+int main() {
+    // Get the current time
+    std::time_t currentTime;
+    std::time(&currentTime);
+
+    // Convert the current time to a string representation
+    char *timeString = std::ctime(&currentTime);
+
+    // Print the current time and date
+    std::cout << "Current time and date: " << timeString;
+
+    return 0;
+}
+*/
+
+
+
+
+
+/*
+#include<iostream>
+#include <chrono>
+#include <ctime>
+
+int main() {
+    std::tm start_date = {};
+    start_date.tm_year = 2024 - 1900; // Year since 1900
+    start_date.tm_mon = 3; // April (zero-based)
+    start_date.tm_mday = 1; // 1st day of the month
+
+    std::tm end_date = {};
+    end_date.tm_year = 2024 - 1900; // Year since 1900
+    end_date.tm_mon = 3; // April (zero-based)
+    end_date.tm_mday = 3; // 3rd day of the month
+
+    auto start = std::chrono::system_clock::from_time_t(std::mktime(&start_date));
+    auto end = std::chrono::system_clock::from_time_t(std::mktime(&end_date));
+    auto duration = end - start;
+
+    std::chrono::seconds diff = std::chrono::duration_cast<std::chrono::seconds>(duration);
+
+    std::cout << "Duration in seconds is: " << diff.count() << std::endl;
+
+    return 0;
+}
+*/
+
+
+
+
+
+
+
+
+
+What if I want to measure the difference between these two times in seconds?
+
+start time: Wed Apr  3 14:17:22 2024
+end time: Wed Apr  3 23:17:22 2024
+
+
+
+/*
+    // first example
+
+    time_t curr_time;
+    curr_time = time (NULL);
+    char* tm = ctime (&curr_time);
+
+    std::cout << curr_time << " seconds have been elapsed since January 1, 1970." << std::endl;
+    std::cout << "Current date and time: " << tm << std::endl;
+
+
+    // Second example
+
+    time_t one_hour_from_now_on = time(nullptr) + 3600;
+    char* dt = ctime (&one_hour_from_now_on);  
+    std::cout << "One hour from now, the time will be: " << dt << std::endl;
+
+
+    // Third example
+
+    time_t start = time(nullptr);
+    time_t end = time(nullptr)+ 360
+    std::cout << "\n Difference in time is: " << difftime(end, start) << "seconds " << std::endl;
+
+*/
+
+
+__________________________________________________________________________________________________________
+
+
+                WORKING EXAMPLE
+/*
+ // Define start and end times
+    std::tm start = {};
+    std::tm end = {};
+
+    // Format should be (Mon Jan 1  00:00:00 2000) 
+
+    std::string start_time = "Wed Apr 3 00:00:00 2024";
+    std::string end_time = "Thu Apr 4 00:0:01 2024";
+    
+    // Parse start time
+    std::istringstream ss_start(start_time);
+    ss_start >> std::get_time(&start, "%a %b %e %H:%M:%S %Y");
+    std::time_t start_seconds = std::mktime(&start);
+    
+    // Parse end time
+    std::istringstream ss_end(end_time);
+    ss_end >> std::get_time(&end, "%a %b %e %H:%M:%S %Y");
+    std::time_t end_seconds = std::mktime(&end);
+    
+    // Calculate the difference in seconds
+    std::time_t difference = std::difftime(end_seconds, start_seconds);
+    
+    std::cout << "Difference in time is: " << difference << " seconds." << std::endl;
+*/  
+
+
+__________________________________________________________________________________________________________
+
+// mktime usage 
+
+#include <ctime>
+#include <iomanip>
+#include <iostream>
+#include <sstream>
+ 
+int main()
+{
+    setenv("TZ", "/usr/share/zoneinfo/America/Los_Angeles", 1); // POSIX-specific
+ 
+    std::tm tm{}; // Zero initialise
+    tm.tm_year = 2020 - 1900; // 2020
+    tm.tm_mon = 2 - 1; // February
+    tm.tm_mday = 15; // 15th
+    tm.tm_hour = 10;
+    tm.tm_min = 15;
+    tm.tm_isdst = 0; // Not daylight saving
+    std::time_t t = std::mktime(&tm); 
+    std::tm local = *std::localtime(&t);
+ 
+    std::cout << "local: " << std::put_time(&local, "%c %Z") << '\n';
+}
+
+__________________________________________________________________________________________________________
+
+// Another method to Calculate difference between two times
+
+#include <iostream>
+#include <chrono>
+#include <sstream>
+#include <iomanip>
+#include <string>
+
+int main() {
+    // Define start and end times as strings
+    std::string start_time = "Wed Apr  3 14:17:22 2024";
+    std::string end_time = "Wed Apr  3 23:47:22 2024";
+    
+    // Define time format
+    std::locale loc("C");
+    std::istringstream start_ss(start_time), end_ss(end_time);
+    start_ss.imbue(loc);
+    end_ss.imbue(loc);
+
+    // Parse start and end times
+    std::tm start_tm = {}, end_tm = {};
+    start_ss >> std::get_time(&start_tm, "%a %b %e %T %Y");
+    end_ss >> std::get_time(&end_tm, "%a %b %e %T %Y");
+
+    // Convert parsed times to std::chrono::time_point
+    auto start_point = std::chrono::system_clock::from_time_t(std::mktime(&start_tm));
+    auto end_point = std::chrono::system_clock::from_time_t(std::mktime(&end_tm));
+
+    // Calculate the difference
+    auto difference = end_point - start_point;
+
+    // Convert the difference to seconds
+    auto seconds = std::chrono::duration_cast<std::chrono::seconds>(difference).count();
+
+    std::cout << "\nDifference in time is: " << static_cast<double>(seconds)/3600 << " hours.\n" << std::endl;
+
+    return 0;
+}
+
+__________________________________________________________________________________________________________
+
+    std::chrono::milliseconds mil (1000);
+    mil = mil * 60;
+    std::cout << "Duration (in seconds): " << (mil.count() * std::chrono::milliseconds::period:: num / std::chrono::milliseconds::period::den) << "seconds.\n";
+__________________________________________________________________________________________________________
+
+

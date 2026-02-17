@@ -1,0 +1,10 @@
+
+r.out.stackdump
+nlohmann/json.exe
+tempCodeRunnerFile.cpp
+main.exe
+.vscode/settings.json
+Accounts/nlohmann/json.hpp
+Accounts/main.cpp
+Accounts/AccountsManagement.exe
+Accounts/nlohmann/json_fwd.hpp

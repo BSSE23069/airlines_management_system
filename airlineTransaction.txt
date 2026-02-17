@@ -1,0 +1,46 @@
+Stauts: Deduction, From Account: company123 to Airlines Account: , Previous Balance: 0, New Balance: -1e+006
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: , Previous Balance: 0, New Balance: -1e+006
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: , Previous Balance: 0, New Balance: -1e+006
+--------------------
+Stauts: Addition, From Account: 000 to Airlines Account: AIRLinesAccount123, Previous Balance: 0, New Balance: 200000
+Transaction Time: Tue May 07 01:16:23 2024
+
+--------------------
+Stauts: Addition, From Account: 000 to Airlines Account: AIRLinesAccount123, Previous Balance: -1000, New Balance: 199000
+Transaction Time: Tue May 07 01:24:11 2024
+
+--------------------
+Stauts: Addition, From Account: 900 to Airlines Account: AIRLinesAccount123, Previous Balance: 199000, New Balance: 279000
+Transaction Time: Tue May 07 01:30:10 2024
+
+--------------------
+Stauts: Addition, From Account: 234 to Airlines Account: AIRLinesAccount123, Previous Balance: 279000, New Balance: 399000
+Transaction Time: Tue May 07 01:31:19 2024
+
+--------------------
+Stauts: Addition, From Account: 111 to Airlines Account: AIRLinesAccount123, Previous Balance: 399000, New Balance: 479000
+Transaction Time: Tue May 07 01:36:13 2024
+
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: AIRLinesAccount123, Previous Balance: 9e+08, New Balance: 8.985e+08
+Transaction Time: -Wed May 08 11:57:07 2024
+
+--------------------
+Stauts: Addition, From Account: 234 to Airlines Account: AIRLinesAccount123, Previous Balance: 8.985e+08, New Balance: 8.9865e+08
+Transaction Time: Wed May 08 12:24:03 2024
+
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: AIRLinesAccount123, Previous Balance: 8.9865e+08, New Balance: 8.9665e+08
+Transaction Time: -Wed May 08 17:17:34 2024
+
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: AIRLinesAccount123, Previous Balance: 8.9665e+08, New Balance: 8.9515e+08
+Transaction Time: -Wed May 08 17:17:45 2024
+
+--------------------
+Stauts: Deduction, From Account: company123 to Airlines Account: AIRLinesAccount123, Previous Balance: 8.9515e+08, New Balance: 8.9499e+08
+Transaction Time: -Wed May 08 17:53:00 2024
+
+--------------------

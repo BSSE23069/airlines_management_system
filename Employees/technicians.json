@@ -1,0 +1,62 @@
+{
+    "Technician": [
+        {
+            "account": {
+                "accountNo": "1111",
+                "balance": 1000.0
+            },
+            "department": "AirplaneMaintenance",
+            "designation": "Technician",
+            "firstName": "tech1",
+            "id": "tech1",
+            "lastName": "tech1",
+            "pass": "tech1",
+            "salary": {
+                "allowances": 100.0,
+                "basicSalary": 10.0,
+                "deductions": 0.0,
+                "hourlySalary": 20.0
+            },
+            "tier": 1
+        },
+        {
+            "account": {
+                "accountNo": "2222",
+                "balance": 1000.0
+            },
+            "department": "AirplaneMaintenance",
+            "designation": "Technician",
+            "firstName": "tech2",
+            "id": "tech2",
+            "lastName": "tech2",
+            "pass": "tech2",
+            "salary": {
+                "allowances": 100.0,
+                "basicSalary": 10.0,
+                "deductions": 0.0,
+                "hourlySalary": 20.0
+            },
+            "tier": 2
+        },
+        {
+          "account": {
+            "accountNo": "3333",
+            "balance": 1000.0
+          },
+          "department": "AirplaneMaintenance",
+          "designation": "Technician",
+          "firstName": "tech3",
+          "id": "tech3",
+          "lastName": "tech3",
+          "pass": "tech3",
+          "salary": {
+            "allowances": 100.0,
+            "basicSalary": 10.0,
+            "deductions": 0.0,
+            "hourlySalary": 20.0
+          },
+          "tier": 3
+        }
+
+    ]
+}

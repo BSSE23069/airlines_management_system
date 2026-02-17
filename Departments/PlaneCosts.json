@@ -1,0 +1,110 @@
+[
+    {
+    "Empennage": {
+      "Elevator": 10000,
+      "Rudders": 8000
+    },
+    "Engine": 50000,
+    "LandingGear": {
+      "MainLandingGear": {
+        "Strut": 500,
+        "Tyre": 1000
+      },
+      "NoseLandingGear": {
+        "Strut": 400,
+        "Tyre": 800
+      }
+    },
+    "PassengerCompartment": {
+      "Seat": 2500,
+      "Window": 500
+    },
+    "Wings": {
+      "Aileron": 1000,
+      "Flaps": 1000,
+      "Slats": 1000,
+      "Spoiler": 1000,
+      "Winglet": 1000
+    }
+  },
+  {
+    "Empennage": {
+      "Elevator": 20000,
+      "Rudders": 16000
+    },
+    "Engine": 100000,
+    "LandingGear": {
+      "MainLandingGear": {
+        "Strut": 1000,
+        "Tyre": 2000
+      },
+      "NoseLandingGear": {
+        "Strut": 800,
+        "Tyre": 1600
+      }
+    },
+    "PassengerCompartment": {
+      "Seat": 5000,
+      "Window": 1000
+    },
+    "Wings": {
+      "Aileron": 2000,
+      "Flaps": 2000,
+      "Slats": 2000,
+      "Spoiler": 2000,
+      "Winglet": 2000
+    }
+  },
+  {
+    "Empennage": {
+      "Elevator": 40000,
+      "Rudders": 32000
+    },
+    "Engine": 200000,
+    "LandingGear": {
+      "MainLandingGear": {
+        "Strut": 2000,
+        "Tyre": 4000
+      },
+      "NoseLandingGear": {
+        "Strut": 1600,
+        "Tyre": 3200
+      }
+    },
+    "PassengerCompartment": {
+      "Seat": 10000,
+      "Window": 2000
+    },
+    "Wings": {
+      "Aileron": 4000,
+      "Flaps": 4000,
+      "Slats": 4000,
+      "Spoiler": 4000,
+      "Winglet": 4000
+    }
+  },
+  {
+    "Empennage": {
+      "Elevator": 8000,
+      "Rudders": 6000
+    },
+    "Engine": 80000,
+    "LandingGear": {
+      "MainLandingGear": {
+        "Strut": 800,
+        "Tyre": 1600
+      },
+      "NoseLandingGear": {
+        "Strut": 600,
+        "Tyre": 1200
+      }
+    },
+    "Wings": {
+      "Aileron": 1500,
+      "Flaps": 1500,
+      "Slats": 1500,
+      "Spoiler": 1500,
+      "Winglet": 1500
+    }
+  }
+]

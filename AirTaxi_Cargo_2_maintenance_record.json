@@ -1,0 +1,44 @@
+[
+   {
+      "Empennage": null,
+      "Engines": [
+         "RW1",
+         "LW2"
+      ],
+      "MainLandingGear": {
+         "LeftLandingGear": {
+            "Struts": [],
+            "Tyres": []
+         },
+         "RightLandingGear": {
+            "Struts": [],
+            "Tyres": []
+         }
+      },
+      "NoseLandingGear": {
+         "Struts": [],
+         "Tyres": []
+      },
+      "Seats": [],
+      "Windows": [],
+      "assignedEmployees": [
+         {
+            "ID": "james_bond",
+            "ROLE": "InspectionManager"
+         },
+         {
+            "ID": "tech1",
+            "ROLE": "Technician"
+         },
+         {
+            "ID": "tech2",
+            "ROLE": "Technician"
+         },
+         {
+            "ID": "tech3",
+            "ROLE": "Technician"
+         }
+      ],
+      "isAvailable": true
+   }
+]

@@ -1,0 +1,28 @@
+{
+    "CargoEmployee": [
+        {
+            "accountNo": 222,
+            "age": 12,
+            "available": false,
+            "id": 1111,
+            "name": "numan",
+            "salary": 111,
+            "work": [
+                {
+                    "id": "w0",
+                    "planeId": "AirTaxi_Cargo_2",
+                    "status": false,
+                    "weight": 23.299999237060547
+                }
+            ]
+        },
+        {
+            "accountNo": 1112,
+            "age": 12,
+            "available": false,
+            "id": 122,
+            "name": "numan",
+            "salary": 11
+        }
+    ]
+}

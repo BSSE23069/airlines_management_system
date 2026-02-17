@@ -1,0 +1,23 @@
+{
+    "InspectionManager": [
+        {
+            "account": {
+                "accountNo": "0000",
+                "balance": 100000.0
+            },
+            "department": "AirplaneMaintenance",
+            "designation": "InspectionManager",
+            "firstName": "AJ",
+            "id": "james_bond",
+            "inspections": 0,
+            "lastName": "Styles",
+            "pass": "007",
+            "salary": {
+                "allowances": 0.5,
+                "basicSalary": 1.0,
+                "deductions": 0.0,
+                "hourlySalary": 0.25
+            }
+        }
+    ]
+}

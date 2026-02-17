@@ -1,0 +1,23 @@
+{
+    "Pilot": [
+        {
+            "account": {
+                "accountNo": "XYZ-123",
+                "balance": 100000.0
+            },
+            "department": "FightDepartment",
+            "designation": "Captain",
+            "experience": 10.0,
+            "firstName": "Neil",
+            "id": "PSO-101",
+            "lastName": "Bohr",
+            "pass": "Neil123",
+            "salary": {
+                "allowances": 15000.0,
+                "basicSalary": 200000.0,
+                "deductions": 0.0,
+                "hourlySalary": 700.0
+            }
+        }
+    ]
+}
